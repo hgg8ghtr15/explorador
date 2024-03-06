@@ -1,0 +1,17 @@
+--- Comentarios
+ctrl + :
+
+
+################################
+--- Css Peso
+
+1º Injetado no html
+2º ID
+3º Classe
+
+
+Elementos em blocos: ocupa apenas o bloque não quebra a linha
+<div></div>
+
+Elemento em linha: ocupa a linha toda
+<p></p>

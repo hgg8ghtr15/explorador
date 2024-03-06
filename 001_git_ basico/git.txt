@@ -1,0 +1,19 @@
+Comandos Git
+
+--- Verifica o status
+git status
+
+--- Adiciona os arquivos
+git add *
+
+--- Seleciona a branch
+git branch -M main
+
+--- Adiciona o servidor
+git remote add origin git@github.com:hgg8ghtr15/explorador.git
+
+--- Realiza o commit
+git commit -m "nome do commit"
+
+--- Envia o commit
+git push -u origin main
