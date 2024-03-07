@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 65px 10% 0 10%;
+  height: 100%;
+}
+
+header {
+  /* padding: 4% 10% 0 10%; */
+  display: flex;
+  flex-direction: row;
+  height: 4%;
+}
+
+header div {
+  width: 60%;
+}
+
+header div a {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  /* padding: 10px 20px; */
+}
+
+header div a:hover {
+  /* background-color: rgb(0, 0, 0); */
+  color: rgb(3, 226, 22)
+}
+
+header nav {
+  width: 40%;
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  flex: 1;
+}
+
+header nav ul li {
+  display: flex;
+  width: 33%;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: rgb(252, 255, 255);
+  background-color: rgb(3, 226, 22);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+header nav ul li a:hover {
+  background-color: cadetblue;
+  color: rgb(252, 255, 255);
+  border-radius: 10px;
+}
+
+/* session */
+
+main {
+  height: 70%;
+  padding: 6px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+main .div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* flex: 3; */
+  height: 80%;
+  /* border: 1px solid turquoise; */
+}
+
+main .div h2 {
+  padding: 10px 0px;
+  text-align: justify;
+}
+
+main .div p:nth-child(2) {
+  padding: 10px 0px;
+  text-align: justify;
+}
+
+main>.div p:nth-child(3) {
+  text-align: justify;
+  padding: 6px 0px;
+}
+
+main .div span {
+  padding: 30px 0px;
+}
+
+main .div span a {
+  width: 90px;
+  padding: 10px 10px;
+  margin: 0;
+  color: cadetblue;
+  background-color: rgb(3, 226, 22);
+  color: aliceblue;
+  text-align: center;
+  border-radius: 8px;
+}
+
+main .div span a:hover {
+  background-color: cadetblue;
+  color: rgb(255, 255, 255);
+}
+
+
+main .div2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+footer {
+  height: 10%;
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(3, 226, 22);
+}
+
+footer p {
+  flex: 1;
+  text-align: center;
+}
