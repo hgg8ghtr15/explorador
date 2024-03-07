@@ -4,62 +4,59 @@
   text-decoration: none;
 }
 
-html {
-  height: 100%;
-}
+/* html {
+  height: 100vh;
+} */
 
 body {
   padding: 65px 10% 0 10%;
-  height: 100%;
+  height: 85vh;
 }
 
-header {
+nav {
   /* padding: 4% 10% 0 10%; */
+  height: 4vh;
   display: flex;
+  margin-bottom: 55px;
   flex-direction: row;
-  height: 4%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header div {
-  width: 60%;
-}
 
-header div a {
+nav a {
   color: black;
   font-size: large;
   font-weight: bold;
   /* padding: 10px 20px; */
 }
 
-header div a:hover {
+nav a:hover {
   /* background-color: rgb(0, 0, 0); */
   color: rgb(3, 226, 22)
 }
 
-header nav {
-  width: 40%;
-  display: flex;
-}
-
-header nav ul {
+nav ul {
   display: flex;
   flex: 1;
+  gap: 50px;
+  justify-content: end;
 }
 
-header nav ul li {
-  display: flex;
-  width: 33%;
+nav ul li {
+  /* display: flex; */
+  /* width: 33%; */
   list-style: none;
 }
 
-header nav ul li a {
+nav ul li a {
   color: rgb(252, 255, 255);
   background-color: rgb(3, 226, 22);
   padding: 10px 20px;
   border-radius: 10px;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
   background-color: cadetblue;
   color: rgb(252, 255, 255);
   border-radius: 10px;
@@ -68,14 +65,17 @@ header nav ul li a:hover {
 /* session */
 
 main {
-  height: 70%;
+  height: 70vh;
   padding: 6px 0px;
   display: flex;
   flex-direction: row;
+  gap: 20px;
+  align-content: normal;
+  align-items: center;
 }
 
 main .div {
-  width: 50%;
+  width: 40vh;
   display: flex;
   flex-direction: column;
   /* flex: 3; */
@@ -102,39 +102,52 @@ main .div span {
   padding: 30px 0px;
 }
 
-main .div span a {
-  width: 90px;
+main .div span button {
+  display: flex;
+  gap: 5px;
+  align-items: center;
   padding: 10px 10px;
   margin: 0;
   color: cadetblue;
   background-color: rgb(3, 226, 22);
   color: aliceblue;
-  text-align: center;
+  border: 0px;
   border-radius: 8px;
+  text-transform: uppercase;
 }
 
-main .div span a:hover {
+main .div span button:hover {
   background-color: cadetblue;
   color: rgb(255, 255, 255);
 }
 
 
 main .div2 {
-  width: 50%;
+  width: 40vh;
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: center;
+}
+
+main .div2 img {
+  /* width: 80%; */
+  width: 40vw;
+  /* width: 100vh; */
 }
 
 footer {
-  height: 10%;
+  height: 10vh;
   display: flex;
   font-size: large;
   font-weight: bold;
-  color: rgb(3, 226, 22);
 }
 
 footer p {
   flex: 1;
   text-align: center;
+}
+
+footer p a {
+  color: rgb(3, 226, 22);
 }
