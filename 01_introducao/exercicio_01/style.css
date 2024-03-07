@@ -49,6 +49,7 @@ div strong {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	margin-bottom: 33px;
 }
 
 #footer div {
@@ -66,4 +67,12 @@ div strong {
 	text-decoration: none;
 	color: #ff9900;
 	width: 33.3%;
+}
+
+#home {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 0% 10%;
+	color: #f90;
 }
